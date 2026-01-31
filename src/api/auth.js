@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000/api/auth";
+const API_BASE = "https://inventory-backend-oayq.onrender.com";
 
 export const tokenUtils = {
   getToken: () => localStorage.getItem("token"),
